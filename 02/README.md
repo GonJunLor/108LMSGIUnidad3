@@ -8,7 +8,7 @@
 
 ``` querySelector para seleccionar el primer elemento que cumpla la condición ```
 
-  ```closest() busca el elemento más cernacao que cumpla con la dirección hacia el padre, devolviendo el más cercano, pero nunca hacia los hijos ```
+  ```closest() busca el elemento más cercano que cumpla con la dirección hacia el padre, devolviendo el más cercano, pero nunca hacia los hijos ```
 
 
 
