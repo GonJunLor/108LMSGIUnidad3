@@ -14,6 +14,27 @@
         <a href="/">Enlace</a>
     </div>
     <script>
+        //var cuerpo = document.getElementsByTagName("body")
+        var cuerpo = document.querySelector("body")
+        console.log("Nº hijos de body: " + cuerpo.childNodes.length)
+
+        console.log("\n**** Hijos de Body *****")
+        var hijos = cuerpo.childNodes
+        for (let i = 0; i < hijos.length; i++) {
+            console.log("Hijo de Body " + i + ": " + hijos[i]) 
+            //console.log("Hijo " + i + ": " + hijos[i].textContent) 
+        }
+
+        console.log("\nPadre de body: " + cuerpo.parentNode)
+
+        console.log("\n**** Hijos de ID *****")
+        var id = document.getElementById("app")
+        var hijosId = id.childNodes
+        for (let i = 0; i < hijosId.length; i++) {
+            console.log("Hijo de ID " + i + ": " + hijosId[i]) 
+            //console.log("Hijo " + i + ": " + hijos[i].textContent) 
+        }
+        
     </script>
 </body>
 </html>
