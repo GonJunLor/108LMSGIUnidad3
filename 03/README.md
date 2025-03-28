@@ -3,6 +3,7 @@
 > 
 
 1. Imprime el número de nodos hijos del elemento <body>
+1. Imprime el número de nodos hijos del elemento <body>
 2. Imprime la lista de nodos hijos del <body>
 3. Imprime en consola el nodo padre de <body>
 4. Imprime en la consola la lista de nodos hijos del elemento con id app
