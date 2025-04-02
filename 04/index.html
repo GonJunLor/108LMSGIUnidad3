@@ -31,4 +31,21 @@
         </details>
     </div>
 </body>
+<script>
+    var contenedor = document.querySelector(".container")
+    var negrita = document.querySelector("strong")
+    var marca = document.querySelector("mark")
+    var parrafoOculto = document.querySelector("p[hidden]")
+    var detalle = document.querySelector("details")
+
+    //var contenedor = document.getElementsByClassName(".container")
+    //contenedor.style.background="red"
+
+    contenedor.firstChild.textContent="Adios a todos. Soy Manz"
+    contenedor.lastElementChild.innerHTML+="<p>Saludos a todos</p>"
+    negrita.textContent="Manzano"
+    marca.style.display="block"
+    parrafoOculto.removeAttribute("hidden")
+    detalle.open=true
+</script>
 </html>
