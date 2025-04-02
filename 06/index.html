@@ -14,6 +14,19 @@
     <button onclick="cambiarImagen()">Cambiar Imagen</button>
 </body>
 <script>
-    
+    let control = true
+    function cambiarImagen() {
+        let imagen = document.querySelector("#miImagen")
+        
+        if (control) {
+            imagen.src = "imagen2.jpg"
+            imagen.alt = "Imagen secundaria"
+            control = false
+        } else  {
+            imagen.src = "imagen1.jpg"
+            imagen.alt = "Imagen original"
+            control = true
+        }
+    }
 </script>
 </html>     
